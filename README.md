@@ -12,6 +12,7 @@ Para atender diferentes cenários de conversão, o padrão foi dividido em duas 
 Essa variação é uma abordagem básica para conversão entre um Model e um DTO, sem diferenciação entre os tipos de requisição e resposta.
 
 #### Diagrama de Classes
+![image](./diagramas/generic_mapper_simple-1.png)
 
 ##### Interface Genérica em java
 ```java
@@ -25,6 +26,8 @@ public interface GenericMapperSimple<M, D> {
 Essa variação permite uma maior flexibilidade ao lidar com cenários onde o DTO de requisição difere do DTO de resposta.
 
 #### Diagrama de Classes
+![image](./diagramas/generic_mapper_variant-1.png)
+
 
 ##### Interface Genérica em java
 ```java
